@@ -14,10 +14,12 @@ bg.addEventListener("click", function () {
     navLeft.classList.remove("active-nav");
     bg.classList.remove("active-bg-active");
     document.querySelector("body").classList.remove("body-scrollbar");
+    document.querySelector("main").classList.remove("main-height");
   } else if (navRight.classList.contains("active-nav")) {
     navRight.classList.remove("active-nav");
     bg.classList.remove("active-bg-active");
     document.querySelector("body").classList.remove("body-scrollbar");
+    document.querySelector("main").classList.remove("main-height");
   } else {
   }
 });
@@ -26,24 +28,28 @@ leftOpenIcon.addEventListener("click", function () {
   navLeft.classList.add("active-nav");
   bg.classList.add("active-bg-active");
   document.querySelector("body").classList.add("body-scrollbar");
+  document.querySelector("main").classList.add("main-height");
 });
 
 hLeftcloseMenu.addEventListener("click", function () {
   navLeft.classList.remove("active-nav");
   bg.classList.remove("active-bg-active");
   document.querySelector("body").classList.remove("body-scrollbar");
+  document.querySelector("main").classList.remove("main-height");
 });
 
 rightOpenIcon.addEventListener("click", function () {
   navRight.classList.add("active-nav");
   bg.classList.add("active-bg-active");
   document.querySelector("body").classList.add("body-scrollbar");
+  document.querySelector("main").classList.add("main-height");
 });
 
 hRightcloseMenu.addEventListener("click", function () {
   navRight.classList.remove("active-nav");
   bg.classList.remove("active-bg-active");
   document.querySelector("body").classList.remove("body-scrollbar");
+  document.querySelector("main").classList.remove("main-height");
 });
 
 mlDot.addEventListener("click", function () {
